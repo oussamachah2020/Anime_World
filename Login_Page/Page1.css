@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+body {
+  background-image: url("image/stars.gif");
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content {
+  border: 1px solid white;
+  margin: 6pc 10pc 0 10pc;
+  height: 28.1pc;
+  border-radius: 7px;
+  background: linear-gradient(80deg, #929090, orangered);
+}
+
+.btn-container button {
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid black;
+  border-radius: 40%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-container .nextImg {
+  position: relative;
+  left: 33pc;
+  bottom: 15pc;
+}
+
+.btn-container .prevImg {
+  position: relative;
+  left: 12pc;
+  bottom: 15pc;
+}
+
+.image {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login {
+  float: right;
+  -webkit-transform: translate(-16pc, -28pc);
+          transform: translate(-16pc, -28pc);
+}
+
+.login h2 {
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.login input {
+  margin: 10px;
+  border: none;
+  outline: none;
+  padding: 12px 20px 12px 20px;
+  border-radius: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login input:focus {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+          box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+}
+
+.login ::-webkit-input-placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login :-ms-input-placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login ::-ms-input-placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login ::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login button[type="submit"] {
+  border: none;
+  outline: none;
+  margin: 20px 0 0 12px;
+  padding: 10px 7.2pc 10px 7.2pc;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  background-color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login button:hover {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.login span a {
+  text-decoration: none;
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+  position: relative;
+  left: 5pc;
+  top: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login span a:hover {
+  -webkit-text-decoration: underline white 2px;
+          text-decoration: underline white 2px;
+}
+
+.login p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-top: 6pc;
+  text-align: center;
+}
+
+.login p a {
+  text-decoration: none;
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+  margin-left: 10px;
+}
+
+.alert {
+  color: red;
+  text-align: center;
+  margin-left: 29pc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid silver;
+  width: 22%;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  display: none;
+  border-radius: 5px;
+}
+
+.show-alert {
+  display: block;
+}
+/*# sourceMappingURL=Page1.css.map */

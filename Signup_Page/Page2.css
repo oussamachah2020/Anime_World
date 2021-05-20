@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+*::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-image: url("image/stars.gif");
+  background-size: 2000px;
+}
+
+img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.content {
+  border: 1px solid white;
+  margin: 2pc;
+  margin-top: 3pc;
+  height: 34.4pc;
+  border-radius: 10px;
+  background: linear-gradient(80deg, white, orangered);
+}
+
+.content img#social {
+  position: relative;
+  left: 18pc;
+  bottom: 1pc;
+  margin-left: 16px;
+}
+
+.infos {
+  float: right;
+  -webkit-transform: translate(-5pc, -10px);
+          transform: translate(-5pc, -10px);
+}
+
+.infos h2 {
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.9pc;
+}
+
+.infos input {
+  margin: 20px 0 0 6pc;
+  border: none;
+  outline: none;
+  padding: 15px 11pc 15px 25px;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translateY(-3pc);
+          transform: translateY(-3pc);
+}
+
+.infos span#charNum {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  position: relative;
+  right: 3pc;
+  bottom: 3.9pc;
+}
+
+.infos input:focus {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+          box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+}
+
+.infos input[type="checkbox"] {
+  margin-top: 30px;
+  -webkit-box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+          box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+}
+
+.infos #email {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+}
+
+.infos label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+  position: relative;
+  bottom: 3.2pc;
+}
+
+.infos label span a {
+  text-decoration: none;
+  color: rgba(8, 95, 153, 0.815);
+  font-weight: bold;
+}
+
+.infos button {
+  margin: -1pc 0 0 6.2pc;
+  border: none;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  padding: 10px 10.9pc 10px 10.9pc;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background: white;
+  cursor: pointer;
+}
+
+.infos button:hover {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+          box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.377);
+}
+
+.alert {
+  color: red;
+  text-align: center;
+  margin-left: 29pc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid silver;
+  width: 22%;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  display: none;
+  border-radius: 5px;
+}
+
+.show-alert {
+  display: block;
+}
+
+#EmailVer {
+  color: rgba(250, 9, 9, 0.808);
+  position: relative;
+  left: 6.5pc;
+  bottom: 29px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15;
+}
+/*# sourceMappingURL=Page2.css.map */

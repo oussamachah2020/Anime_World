@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Page2.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+<div class="content">
+    <img src="image/anime2.png" width="480px" height="550px">
+    <form class="infos">
+        <h2 class="title">Registration to Anime World (Have Fun!)</h2>
+        <input type="email" placeholder="Email" class="input" id="email"><br>
+        <span id="EmailVer"></span><br>
+        <input type="text" placeholder="Username" class="input" onkeyup="countChars(this);">
+        <span id="charNum">0/20</span><br>
+        <input type="password" placeholder="Create your password" class="input"><br>
+        <input type="password" placeholder="Confirm your password" class="input"><br>
+        <input type="checkbox" name="check" class="checkbox">
+        <label for="check" class="label">
+            Agree with to <span><a href="">Terms</a></span> and <span><a href="">Conditions</a></span>
+        </label><br>
+        <input type="checkbox" name="Male" class="checkbox">
+        <label for="Male" class="label">Male</label>
+        <input type="checkbox" name="female" class="checkbox">
+        <label for="female" class="label">Female</label>
+        <input type="checkbox" name="other" class="checkbox">
+        <label for="other" class="label">Other</label><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<p class="alert"></p>
+<script src="Page2.js"></script>
+</body>
+</html>
