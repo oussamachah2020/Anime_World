@@ -1,4 +1,4 @@
-//import { AnimeCovers } from './Animes.js'
+
 const AnimeCovers = [
     {
         id:1,
